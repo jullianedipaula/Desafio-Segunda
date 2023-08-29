@@ -1,0 +1,18 @@
+:root {
+	--backgroud-color: #000000;
+	--grey: #7c7578;
+	--grey2: #e2e2e2;
+	--green: #BFDB38;
+	--white: #fff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Sora', sans-serif;
+}
+
+ul {
+	list-style: none;
+}

@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--backgroud-color);
+}
+
+.login {
+    width: 400px;
+    background: transparent;
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.login img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.login .inputBox {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.inputBox input {
+    background: var(--grey);
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border: 2px solid var(--grey2);
+    outline: none;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.inputBox input::placeholder {
+    color: white;
+}
+
+.inputBox i {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 13px;
+}
+
+.loginBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login .btn {
+    width: 50%;
+    height: 40px;
+    margin-top: 30px;
+    background: var(--green);
+    color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    font-size: 13px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.login .btn:hover {
+    background: white;
+    color: var(--green);
+}
